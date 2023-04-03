@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Raleway;
+  src: url(./Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+.cover p,
+.cover a,
+.logo,
+li a {
+  font-family: "Raleway";
+  text-decoration: none;
+}
+
+h1,
+h2,
+.cover a {
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 6.4rem;
+  margin-bottom: 24px;
+}
+
+.cover p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+}
+
+.cover a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 13px 26px;
+}
+
+.logo {
+  font-size: 2.4rem;
+  color: #666;
+  font-weight: 220;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+li a {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+li a:hover {
+  color: #337ab7;
+}
+
+/* liste stylen */
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+  margin: 20px;
+}
+
+/* navigation flexbox stylen */
+
+nav {
+  height: 76px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+/* background image für header */
+
+header {
+  background: url(./photo-1443527216320-7e744084f5a7-1.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* flexbox für cover stylen */
+
+.cover {
+  height: 96vh;
+  /* zusammen mit der navigation ca. 100vh */
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* Elemente mittig nach unten schieben, sodass wir keinen margin brauchen */
+}
+
+/* buttons stylen */
+
+.btn-read {
+  background-color: #745cf9;
+  height: 54px;
+  width: 200px;
+  margin-right: 8px;
+  border: 0;
+}
+
+.btn-read:hover {
+  background-color: #5234f9;
+}
+
+.btn-download {
+  height: 54px;
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid white;
+}
